@@ -4,8 +4,19 @@
 
 ## Current Work
 
-**Seq:** (pending) | **Name:** (pending) | **Status:** Not Started
-**Task List:** (none)
+**Seq:** 004 | **Name:** timeline-task-rows | **Status:** Complete
+**Component:** activity-log-viewer
+**Task List:** project-docs/004-task-list-timeline-task-rows.md
+
+### Component Context
+
+| Field | Value |
+|-------|-------|
+| **Name** | Activity Log Viewer |
+| **Type** | frontend |
+| **Path** | src/ |
+| **Language** | TypeScript/React |
+| **Port** | 3000 |
 
 ---
 
@@ -169,6 +180,10 @@ Requirements include the sequence number to link them to specific work items.
 
 | Seq | Short Name | Component | Requirements | Design | Task List | Status |
 |-----|------------|-----------|--------------|--------|-----------|--------|
+| 001 | activity-log-viewer | — | 001-requirements-activity-log-viewer.md | 001-design-activity-log-viewer.md | 001-task-list-activity-log-viewer.md | Complete |
+| 002 | viewer-enhancements | activity-log-viewer | 002-requirements-viewer-enhancements.md | 002-design-viewer-enhancements.md | 002-task-list-viewer-enhancements.md | Complete |
+| 003 | timeline-gantt-bars | activity-log-viewer | 003-requirements-timeline-gantt-bars.md | 003-design-timeline-gantt-bars.md | 003-task-list-timeline-gantt-bars.md | Complete |
+| 004 | timeline-task-rows | activity-log-viewer | 004-requirements-timeline-task-rows.md | 004-design-timeline-task-rows.md | 004-task-list-timeline-task-rows.md | Complete |
 
 ---
 

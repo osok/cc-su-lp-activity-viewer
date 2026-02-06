@@ -37,3 +37,13 @@ Thumbs.db
 
 # Local scripts
 run-chrome.sh
+
+# Node.js
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Python
+.venv/
+__pycache__/
